@@ -1,6 +1,6 @@
 from typing import Sequence, Tuple, List
-from rl.distribution import Gaussian, Gamma
-from rl.chapter14.mab_base import MABBase
+from distribution import Gaussian, Gamma
+from mab_base import MABBase
 from operator import itemgetter
 from numpy import ndarray, empty, sqrt
 
