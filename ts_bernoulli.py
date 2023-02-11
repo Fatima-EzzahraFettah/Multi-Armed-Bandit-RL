@@ -1,6 +1,6 @@
 from typing import Sequence, Tuple, List
-from rl.distribution import Bernoulli, Beta
-from rl.chapter14.mab_base import MABBase
+from distribution import Bernoulli, Beta
+from mab_base import MABBase
 from operator import itemgetter
 from numpy import ndarray, empty
 
