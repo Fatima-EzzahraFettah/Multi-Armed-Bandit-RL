@@ -1,10 +1,10 @@
 from operator import itemgetter
-from rl.distribution import Gaussian, Bernoulli
-from rl.chapter14.epsilon_greedy import EpsilonGreedy
-from rl.chapter14.ucb1 import UCB1
-from rl.chapter14.ts_gaussian import ThompsonSamplingGaussian
-from rl.chapter14.ts_bernoulli import ThompsonSamplingBernoulli
-from rl.chapter14.gradient_bandits import GradientBandits
+from distribution import Gaussian, Bernoulli
+from epsilon_greedy import EpsilonGreedy
+from ucb1 import UCB1
+from ts_gaussian import ThompsonSamplingGaussian
+from ts_bernoulli import ThompsonSamplingBernoulli
+from gradient_bandits import GradientBandits
 from numpy import arange
 import matplotlib.pyplot as plt
 
