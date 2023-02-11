@@ -1,6 +1,6 @@
 from typing import Sequence, Tuple
 from abc import ABC, abstractmethod
-from scripts.distribution import Distribution
+from distribution import Distribution
 from numpy import ndarray, mean, vstack, cumsum, full, bincount
 
 
