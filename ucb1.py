@@ -1,5 +1,5 @@
 from typing import Sequence, Tuple, List
-from scripts.distribution import Distribution, Categorical
+from distribution import Distribution, Categorical
 from math import comb
 from scripts.mab_base import MABBase
 from operator import itemgetter
