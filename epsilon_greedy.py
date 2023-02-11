@@ -1,6 +1,6 @@
 from typing import List, Callable, Tuple, Sequence
-from scripts.distribution import Distribution, Gaussian, Range, Bernoulli
-from scripts.mab_base import MABBase
+from distribution import Distribution, Gaussian, Range, Bernoulli
+from mab_base import MABBase
 from operator import itemgetter
 from numpy import ndarray, empty
 
@@ -65,7 +65,7 @@ class EpsilonGreedy(MABBase):
 
 
 if __name__ == '__main__':
-    from scripts.gen_utils.plot_funcs import plot_list_of_curves
+    from plot_funcs import plot_list_of_curves
     means_vars_data = [(9., 5.), (10., 2.), (0., 4.),
                        (6., 10.), (2., 20.), (4., 1.)]
     mu_star = max(means_vars_data, key=itemgetter(0))[0]
