@@ -1,5 +1,9 @@
 # Multi-Armed Bandits Reinforcement Learning
 
+Source: 
+- Book title: Foundations of Reinforcement Learning with Applications in Finance
+- Authors: Ashwin Rao, Tikhon Jelvis 
+
 A. In order to execute the horse race experimentation, you must launch the scripts/horseraceexperiment.py file. 
 
    - To experiment the different described use cases in the report, we must change the arms distribution hyperparamters as well as espilon value. 
