@@ -282,4 +282,4 @@ def plot_bernoulli_algorithms() -> None:
 
 if __name__ == '__main__':
     plot_gaussian_algorithms()
-    #plot_bernoulli_algorithms()
+    plot_bernoulli_algorithms()
